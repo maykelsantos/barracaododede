@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+.logo > p {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: dashed;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: dashed;
+}
+
+.nossosEspacos {
+    background: url(https://images.pexels.com/photos/11609149/pexels-photo-11609149.jpeg?cs=srgb&dl=pexels-sangeet-rao-11609149.jpg&fm=jpg) no-repeat;
+    background-size:cover;
+    width: 25rem;
+    height: 25rem;
+}
+
+.nossoCardapio {
+    background: url(https://images.pexels.com/photos/1528013/pexels-photo-1528013.jpeg?cs=srgb&dl=pexels-daria-shevtsova-1528013.jpg&fm=jpg) no-repeat;
+    background-size: cover;
+    width: 25rem;
+    height: 25rem;
+}
+
+.sobreProprietarios {
+    background: url(https://images.pexels.com/photos/4427960/pexels-photo-4427960.jpeg?cs=srgb&dl=pexels-august-de-richelieu-4427960.jpg&fm=jpg) no-repeat bottom;
+    background-size: cover;
+    width: 25rem;
+    height: 25rem;
+}
